@@ -1,0 +1,33 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "77466305573633144ce1dfb047a2d8b98216eaba4b5d3657dc3b00b612d5a810"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "dbispipeline": {
+            "git": "https://gitlab+deploy-token-12:zzLdesrN4Ya5ge-t-VGf@git.uibk.ac.at/dbis/software/dbispipeline.git",
+            "ref": "104cfa63ceafa8cd2ddf68aeda882246ee1c6ab1"
+        },
+        "unidecode": {
+            "hashes": [
+                "sha256:1d7a042116536098d05d599ef2b8616759f02985c85b4fef50c78a5aaf10822a",
+                "sha256:2b6aab710c2a1647e928e36d69c21e76b453cd455f4e2621000e54b2a9b8cce8"
+            ],
+            "index": "pypi",
+            "version": "==1.1.1"
+        }
+    },
+    "develop": {}
+}
